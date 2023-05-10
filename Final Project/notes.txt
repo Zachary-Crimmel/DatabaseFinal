@@ -1,0 +1,63 @@
+April 12, 2023:
+
+I have here four files containing information on automobiles. 
+
+  cheap.tsv, middle.tsv, upper.tsv, expensive.tsv
+
+The files on autos are tab_separated_values (each field separated from the next
+with a tab character. Each record is terminated with a newline. The fields are
+in the order
+
+ATID
+Stock No.
+VIN
+Status
+Make
+Year
+MSRP
+Price
+Body Style
+Doors
+Engine
+Fuel Type
+Exterior Color
+Interior Color
+Mileage
+Stereo
+Drive Type
+Transmission
+Comments
+
+As far as I know, they all have an ATID and a VIN. Beyond that I am not sure.
+You might want to look at them and see what the data is. For instance, Status is
+"used", "new", "certified used". But I do not guarantee that those three are the
+only values. 
+
+
+And three files containing information on people.  
+
+  staff.tsv, salesmaen.tsv, customers.tsv. 
+
+The files on people are tab_separated_values (each field separated from the next
+with a tab character). Each record is terminated with a newline. The fields are
+in the order 
+
+  Name, Address, City, State, Zip, Phone (home), Phone (work), Phone (cell)
+
+As far as I know, everyone has a home phone. Some have work phones and some have
+cell phones and some both. The phone numbers are fake as are the addresses. The
+names are probably real people but I do not know who they are. The addresses may
+be real, but I assure you they do not match the people. 
+
+I did want to run the risk of someone thinking I am giving away 'real'
+information.  BUT that does not mean that you are not to assume that these people
+have all that kind of information or will have. And don't forget, you have to
+plan on things (data sets) growing not only in numbers (more customers) but in
+types of information that might be needed.  Plan for it. Put it in place.
+
+If you have a serious question on the types of information that might be needed
+or the tables and relationships that might need to be allowed for, ask.
+
+
+
+Have fun.
